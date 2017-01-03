@@ -1,0 +1,18 @@
+{
+  "name": "xchart",
+  "version": "1.0.0",
+  "description": "A chart powered by other chart.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@192.168.1.186/qhc/xchart.git"
+  },
+  "keywords": [
+    "chart"
+  ],
+  "author": "qhc",
+  "license": "ISC"
+}
