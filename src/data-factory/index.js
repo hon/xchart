@@ -1,6 +1,6 @@
 export default class DataFactory {
   constructor() {
-    
+
   }
   /**
    * 转换接口, 由下游具体实现
@@ -31,6 +31,6 @@ export default class DataFactory {
   // 获取最终数据
   getData() {
     if ('raw' === this.type) return this.transform()
-    else return this.transformedData
+    return this.transformedData
   }
 }

@@ -1,12 +1,12 @@
-import core from 'core'
+import core from './core'
 // 数据
-import dataFactory from 'data-factory'
+import dataFactory from './data-factory'
 
 // 组件
 import {
   title,
   tooltip
-} from 'components'
+} from './components'
 
 export default class XChart {
   constructor(opts) {
