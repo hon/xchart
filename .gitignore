@@ -1,0 +1,3 @@
+# 忽略node_modules
+/node_modules
+# dist文件不应该被忽略，方便没有node环境的第三方使用者直接下载
